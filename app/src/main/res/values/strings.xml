@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">BAE</string>
+    <string name="settings_name">Paramètres</string>
+    <string name="score">score :</string>
+    <string name="classic_mode">Classique</string>
+    <string name="sport">Sport</string>
+    <string name="ranking">Classement</string>
+    <string name="shop">Boutique</string>
+    <string name="nul_score">0</string>
+    <string name="avatar_description">Just an image of an avatar</string>
+    <string name="timer">0:00</string>
+
+
+    <string name="rank">Classement</string>
+    <string name="classic">Classique</string>
+    <string name="athletic">Sportif</string>
+    <string name="share">Partager</string>
+    <string name="back">Retour</string>
+
+    <string name="city">Oriente le téléphone vers\n</string>
+
+    <string name="congratulation">Félicitations</string>
+    <string name="leave">Quitter</string>
+    <string name="next_level">Suivant</string>
+    <string name="finger_consigne">Touche \n l\'empreinte !</string>
+    <string name="consigne_glass">Vide le \verre !</string>
+    <string name="parametres">Paramètres</string>
+    <string name="color_game">Prends en photo la couleur suivante</string>
+    <string name="defaite">Dommage !</string>
+    <string name="next_level_loose">Continuer ?</string>
+    <string name="consigne_lumiere">Appuie quand la lumière s\'éteint !</string>
+    <string name="shop_name">Shop</string>
+    <string name="sans_pub">Supprimer les pubs</string>
+    <string name="premium_name">Premium</string>
+    <string name="consigne_map">Fais le nombre de pas indiqué!</string>
+    <string name="discret_mode">mode discret</string>
+    <string name="boutique_button">Supprimer les publicités</string>
+    <string name="tutoriel_button">Refaire le tutoriel</string>
+
+    <string name="tutoTitle">Tutoriel</string>
+    <string name="passTuto">Passer Tutoriel</string>
+    <string name="desactiver_musique">Desactiver musique</string>
+    <string name="desactiver_sons">Desactiver sons</string>
+    <string name="pseudo_consigne">Pseudo</string>
+    <string name="retour_button">Retour</string>
+    <string name="appliquer_button">Appliquer</string>
+    <string name="compas_description">compas</string>
+    <string name="fleche_compas">fleche_compas</string>
+    <string name="empreinte_description">empreinte</string>
+    <string name="smiley_triste">smiley_triste</string>
+    <string name="ampoule">ampoule</string>
+    <string name="zone_de_photo">zone de photo</string>
+    <string name="_1_joueur_1_500_points">1. Joueur 1: 500 points</string>
+    <string name="_2_joueur_2_380_points">2. Joueur 2: 380 points</string>
+    <string name="_3_joueur_3_270_points">3. Joueur 3: 270 points</string>
+    <string name="_4_joueur_4_12_points">4. Joueur 4: 12 points</string>
+    <string name="coupe">coupe</string>
+    <string name="suivant_button">Suivant</string>
+    <string name="pseudo_hint">Entre ton pseudo ici</string>
+</resources>

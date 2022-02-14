@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/consigne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="30dp"
+            android:text="@string/finger_consigne"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="8dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zone_finger_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <ImageButton
+            android:id="@+id/finger_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fingerprint"
+            android:contentDescription="@string/empreinte_description" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

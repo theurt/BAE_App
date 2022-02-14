@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/loseGlobalFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFA45E"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="179dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/loseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:text="@string/defaite"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/loseSmiley"
+            android:layout_width="91dp"
+            android:layout_height="151dp"
+            android:layout_below="@id/loseTitle"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sad_emoji"
+            android:contentDescription="@string/smiley_triste" />
+
+        <TextView
+            android:id="@+id/loseScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loseSmiley"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="0dp"
+            android:text="@string/score"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+
+        <LinearLayout
+            android:id="@+id/loseButtonLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loseScore"
+            android:paddingTop="50dp"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/leaveLose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#9AD2C9"
+                android:text="@string/leave"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="0.5dp"
+                tools:ignore="ButtonStyle">
+            </Button>
+
+            <Button
+                android:id="@+id/nextLose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#9AD2C9"
+                android:text="@string/next_level_loose"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="0.5dp"
+                android:onClick="nextLoseOnClick"
+                tools:ignore="ButtonStyle,UsingOnClickInXml">
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

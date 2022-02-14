@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--When Button is in selected state -->
+    <item android:state_selected="false" android:alpha="0.5" android:color="@color/blue" />
+    <!--Default Background Color -->
+    <item android:state_selected="true" android:alpha="1" android:color="@color/blue" />
+
+</selector>

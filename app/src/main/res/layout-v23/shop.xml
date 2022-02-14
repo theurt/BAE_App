@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/blue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+    >
+
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:gravity="top|center_horizontal"
+                android:layout_marginHorizontal="100dp"
+                android:text="@string/shop_name"
+                android:textColor="@color/black"
+                android:background="@drawable/round_button"
+                android:textSize="30sp"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/avatarDisplayMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/avatar_description"
+            android:src="@drawable/test_bitmoji_3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.8"
+            tools:ignore="NestedWeights">
+
+            <android.widget.Button
+                android:id="@+id/noPubShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginHorizontal="10dp"
+                android:padding="10dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/no_adds_icon"
+                android:drawableTint="@color/white"
+                android:text="@string/sans_pub"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+
+            <android.widget.Button
+                android:id="@+id/sportShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:text="@string/sport"
+                android:drawableBottom="@drawable/sport_icon"
+                android:background="@drawable/round_button"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <android.widget.Button
+            android:id="@+id/premiumShop"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/premium_name"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/premium_icon"
+            android:drawableTint="@color/white"
+            android:background="@drawable/round_button"
+            android:layout_weight="0.5"
+            />
+    </LinearLayout>
+
+
+
+        <android.widget.Button
+            android:id="@+id/shopBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:text="@string/retour_button"
+            android:background="@drawable/round_button"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+</LinearLayout>

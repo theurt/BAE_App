@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/blue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="100dp"
+            android:orientation="horizontal"
+            >
+
+            <android.widget.Button
+                android:id="@+id/settingsButtonMainMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:drawableStart="@drawable/settings_icon"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/round_button"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chat_buble"
+        >
+
+
+            <TextView
+                android:id="@+id/scoreWritingMainMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:gravity="top|center_horizontal"
+                android:padding="10dp"
+                android:text="@string/score"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/scoreDisplayMainMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nul_score"
+                android:textColor="@color/white"
+
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1.5"
+        >
+
+        <ImageView
+            android:id="@+id/avatarDisplayMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/avatar_description"
+            android:src="@drawable/test_bitmoji_3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            tools:ignore="NestedWeights">
+
+            <android.widget.Button
+                android:id="@+id/classicButtonMainMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="40dp"
+                android:layout_gravity="center|start"
+                android:layout_marginHorizontal="10dp"
+                android:padding="10dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/classic_icon"
+                android:text="@string/classic_mode"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                />
+
+            <android.widget.Button
+                android:id="@+id/sportsButtonMainMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:text="@string/sport"
+                android:drawableBottom="@drawable/sport_icon"
+                android:background="@drawable/round_button"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <android.widget.Button
+            android:id="@+id/rankingButtonMainMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/ranking"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ranking_icon"
+            android:background="@drawable/round_button"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+
+        <android.widget.Button
+            android:id="@+id/shopButtonMainMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/shop"
+            android:background="@drawable/round_button"
+            android:drawableBottom="@drawable/shop_icon"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

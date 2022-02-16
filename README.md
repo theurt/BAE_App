@@ -21,5 +21,13 @@ Nous sommes 4 étudiants français suivant des cours à l'UQAC (Université du Q
 # Un aperçu de l'application ? 
 
 <p align="center">
-<img src="https://github.com/theurt/theurt/blob/main/demo_BAE.gif?raw=true" alt="Démo de l'application" width="200" height="400">
+<img src="https://github.com/theurt/theurt/blob/main/demo_BAE_1.gif?raw=true" alt="Démo 1 de l'application" width="200" height="400">
+  </p>
+  
+  <p align="center">
+<img src="https://github.com/theurt/theurt/blob/main/demo_BAE_2.gif?raw=true" alt="Démo 2 de l'application" width="200" height="400">
+  </p>
+  
+  <p align="center">
+<img src="https://github.com/theurt/theurt/blob/main/demo_BAE_3.gif?raw=true" alt="Démo 3 de l'application" width="200" height="400">
   </p>

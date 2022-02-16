@@ -12,7 +12,7 @@ Actuellement nous en sommes seulement à la version alpha de l'application. Cert
 
 # Pourquoi n'est-elle pas encore sur le PlayStore et comment la lancer ? 
 
-Nous la publierons sur le PlayStore quand elle sera assez aboutie pour proposer une première version stable. Pour pouvoir l'utiliser en l'état actuel il faut utiliser Android Studio.
+Nous la publierons sur le PlayStore quand elle sera assez aboutie pour proposer une première version stable. Pour pouvoir l'utiliser en l'état actuel il faut utiliser Android Studio ou alors télécharger le fichier .apk puis l'installer sur un smartphone Android (pensez à autoriser l'installation de sources inconnues dans les paramètres de sécurité de votre téléphone.
 
 # Qui nous-sommes nous ? 
 
